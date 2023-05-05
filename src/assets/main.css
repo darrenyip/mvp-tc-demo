@@ -1,0 +1,39 @@
+@import "./base.css";
+.container {
+  padding: 40px 75px 0 75px;
+  flex: 1 0;
+  background: var(--color-background);
+}
+
+.white-card {
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+  padding: 30px 63px;
+  width: 100%;
+}
+
+.router-link-active {
+  color: white !important;
+  background-color: #5932ea;
+}
+
+.menu-button {
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 1.1;
+  color: rgb(145, 151, 179);
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.menu-button:hover {
+  color: white;
+  background-color: #5932ea;
+}
