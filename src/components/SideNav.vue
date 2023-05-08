@@ -6,7 +6,10 @@
     </div>
     <div class="sidenav--menu">
       <RouterLink to="/">主页</RouterLink>
-      <RouterLink to="/tld-test">Tld 检测</RouterLink>
+      <RouterLink to="/tld-test">TLD检测</RouterLink>
+      <RouterLink to="/equipments">设备管理</RouterLink>
+      <RouterLink to="/projects">项目管理</RouterLink>
+      <RouterLink to="/departments">部门管理</RouterLink>
     </div>
   </div>
 </template>
